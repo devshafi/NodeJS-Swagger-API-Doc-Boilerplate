@@ -1,0 +1,24 @@
+{
+    "name": "nodejs-api-doc",
+    "version": "1.0.0",
+    "description": "This project intends to describe how to add API documentation in NodeJS using swagger.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "API-Doc",
+        "Documentation"
+    ],
+    "author": "Fozle Rabbi Shafi",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^5.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.3"
+    }
+}
